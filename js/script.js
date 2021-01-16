@@ -70,7 +70,7 @@ const calculate = () => {
 console.dir(calculate());
 
 // Задача 4.1
-// не понял задачу
+
 const fn = () => {
     const object1 = {name: 'Name1'};
     let object2 = {name: 'Name2'};
@@ -98,3 +98,5 @@ function createUser(name, city) {
 };
 
 console.dir(createUser('Marcus Aurelius', 'Roma'));
+
+//
