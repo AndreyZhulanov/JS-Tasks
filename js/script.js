@@ -99,4 +99,25 @@ function createUser(name, city) {
 
 console.dir(createUser('Marcus Aurelius', 'Roma'));
 
-//
+// Задача 5
+
+// Создаем литерал массива телефонной книги
+let phoneBook = [
+    { name: 'Marcus Aurelius', phone: '+79991111111' },
+    { name: 'Mao Zedong', phone: '+79991234567' },
+    { name: 'Rene Descartes', phone: '+79997654321' },
+];
+
+// функция возвращает телефон по имени из телефонной книги, либо n/a
+function findPhoneByName (name) {
+    for (let record of phoneBook) {
+        if (record.name == name) {
+            return record.phone;
+        };
+    };
+    return 'n/a';
+}
+// Вывожу пример поиска
+console.dir(findPhoneByName('Mao Zedong'));
+
+// Вариат через хеш-таблицы:
