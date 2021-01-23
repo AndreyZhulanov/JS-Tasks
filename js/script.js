@@ -116,7 +116,7 @@ console.dir("Задача 7");
 console.log(ages(persons));
 
 // Задача 8
-// использую методы массива slice, добавил проверку на наличие элементов в массиве
+// использую метод массива splice, добавил проверку на наличие элементов в массиве
 const removeElement = (arr, item) => {
     let itemIndex = arr.indexOf(item,0);
     arr.splice(itemIndex,itemIndex == -1 ? 0 : 1);
