@@ -77,7 +77,7 @@ console.log('Задача 3:');
 // try {
 //     const res = addNumbers(2, 3);
 //     console.dir(res); // Output: 5
-// };
+// }
 // catch(err) { console.log(`Ошибка: `+err.message) };
 
 const concat = (s1, s2) => s1 + s2;
@@ -86,7 +86,8 @@ const concatStrings = contract(concat, String, String, String);
 try {
     const res = concatStrings('Hello ', 'world!');
     console.dir(res); // Output: Hello world!
-};
+}
 catch(err) { console.log(`Ошибка: `+err.message) };
+
 
 
